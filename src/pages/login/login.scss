@@ -1,0 +1,84 @@
+page-login {
+
+}
+
+.login {
+    background: url('../assets/imgs/bg-liso.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.toolbar-background-ios {
+    background: transparent;
+}
+
+.toolbar-ios {
+    min-height: 60px;
+}
+
+span.back-button-text.back-button-text-ios {display: none;}
+
+.bar-button {
+    color: #fff;
+    opacity: .8;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.toolbar-title-ios {color:#fff
+}
+
+.toolbar-background-ios {
+    background: transparent;
+    width: 15%;
+}
+
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {border-color: rgba(255, 255, 255, 0.4);}
+
+.content-ios {background-color: transparent};
+
+.item-ios {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    margin-bottom: 15px;
+    color: #fff
+}
+
+.text-input::-moz-placeholder {
+    color: rgba(255, 255, 255, .4);
+  }
+  
+  .text-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .4)
+  }
+  
+  .text-input::-webkit-input-placeholder {
+    text-indent: 0;
+    color:rgba(255, 255, 255, .4)
+  }
+
+  .input-ios .text-input-clear-icon {fill:#fff}
+
+  .acessar {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.lembrar {
+    text-align: left;
+    left: 20px;
+    position: absolute;
+}
+
+.btnLogin {margin-top: 30px}
+
+.divisor {    display: block;margin: auto;}
+
+.loginSocial {
+    margin-top: 25px;
+}
+
+.loginSocial img {display: block; margin: auto; margin-bottom: 15px}

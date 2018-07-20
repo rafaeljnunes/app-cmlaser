@@ -1,0 +1,49 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="login">
+  <div class="acessar">
+    <h1 class="tituloPagina">Login</h1>
+    <form padding [formGroup]="loginForm" (submit)="login()" novalidate>
+      <ion-item>
+        <ion-input [(ngModel)]="email"
+                  formControlName="email"
+                  type="text"
+                  placeholder="E-mail"
+                  clearInput clearOnEdit="false">
+        </ion-input>
+      </ion-item>
+      <h6 *ngIf="errorEmail" class="error"> {{messageEmail}}</h6>
+      <ion-item>
+        <ion-input [(ngModel)]="password"
+                  formControlName="password"
+                  type="password"
+                  placeholder="Senha"
+                  clearInput clearOnEdit="false">
+        </ion-input>
+      </ion-item>
+      <h6 *ngIf="errorPassword" class="error"> {{messagePassword}}</h6>
+      <img src="../assets/imgs/lembrar.png" class="lembrar">
+      
+      <img src="../assets/imgs/acessar.png" class="btnLogin">
+    </form>
+  </div>
+  <img src="../assets/imgs/devider.png" class="divisor">
+  <div class="loginSocial">
+      <img src="../assets/imgs/fb-login.png" class="">
+      <img src="../assets/imgs/g-login.png" class="">
+      <img src="../assets/imgs/perdeu-senha.png" class="">
+  </div>
+</ion-content>
